@@ -50,7 +50,7 @@ app.get("/",(req,res)=>{
 app.post("/orders",(req,res)=>orderController.create(req,res))
 
 app.listen(4900,()=>{
-    console.log('Server is running')
+    console.log(`Server is running on port 4900')
 })
 
 
